@@ -68,4 +68,37 @@ The login, product catalog, shopping cart, and payment system are all built into
 It runs as one program on one server (or multiple copies of the same program on more servers).
 
 
+🧩 What is a Microservice?
+
+In simple words:
+
+A microservice is a small, independent piece of a bigger app that does one job really well.
+
+Instead of building one big application (like in monolithic architecture), you split your app into smaller services, and each service handles just one part of the whole system.
+
+These small services talk to each other to make the full app work.
+
+👨‍🍳 Example: Food Delivery App
+
+Imagine an app like Swiggy or Zomato — it can be built using microservices like:
+
+🧑‍🍳 Restaurant Service – handles restaurant data
+
+🛒 Order Service – handles placing and tracking orders
+
+👤 User Service – manages user accounts and login
+
+💳 Payment Service – handles payments
+
+📦 Delivery Service – manages delivery status
+
+Each of these is a separate microservice.
+
+They:
+
+Run independently
+
+Have their own code and database
+
+Can be updated or fixed without affecting the others
 
